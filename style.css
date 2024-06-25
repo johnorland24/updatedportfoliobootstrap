@@ -1,0 +1,70 @@
+:root{
+  --body-color:#000000;
+  --text-color:rgb(243, 251, 253);
+  --font-color:#FAF6F0 ;
+ 
+  
+}
+/* #000000
+#F4DFC8
+#F4EAE0
+#FAF6F0 */
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  background-color: #fbe3d4;
+ 
+}
+span{
+  color: #0de2f2;
+  font-weight: 700;
+}
+header{
+  background:var(--body-color);
+}
+.nav-link{
+  font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgb(2, 255, 230);
+}
+.btn-white{
+  background-color: #FAF6F0;
+  padding: 3px;
+  margin: 5px;
+  
+}
+.navbar-nav ul li:hover > a {
+  color: rgb(1, 213, 245);
+}
+/* home */
+.home{
+  background-color:#fbe3d4;
+}
+/* conatct */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #110f0f;
+  border-radius: 5px;
+  margin-top: 50px;
+  background-color: #FAF6F0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.btn-box a{
+  padding: 20px;
+  font-weight: 600;
+  background-color: #110f0f;
+  color: aliceblue;
+  border-radius: none;
+}
